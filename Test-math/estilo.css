@@ -1,0 +1,360 @@
+*{
+
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+}
+body{
+    background: url("fondo.jpg");
+    background: cover;
+}
+.intro1{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+    left: 350px;
+    top:100px;
+    background: #03fd18;
+    font-weight: bold;
+    font-size: 180px; 
+    box-shadow: 7px 6px 6px 6px #1e058f;
+}
+.intro1:hover{
+    background: #48f848;
+    box-shadow: 7px 6px 6px 6px #1e058f;
+    cursor: pointer;
+}
+.intro1:active{
+    color: #3123f3cb;
+    text-decoration:underline #3123f3cb;
+    box-shadow: 7px 6px 6px 6px #1e058f;
+}
+.nivel1{
+    width: 150px;
+    position: relative;
+    left:120px;
+    background: #03fd18;
+    font-weight: bold;
+    font-size: 20px; 
+}
+.problem{
+    font-weight: bold;
+    width: 1000px;
+    height: 150px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 20px;
+    left: 120px;
+    background: #fafade;
+    border: 5px solid #070979;
+    font-size: 35px;
+}
+input[type="button"]{
+    width: 400px;
+    height: 100px;
+    background: #fafade;
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    background: #b6f8b6;
+}
+input[type="button"]:active{
+    width: 450px;
+    height: 80px;
+    background:#07791a;;
+}
+.boton1{
+    border-radius: 20px;
+    position: relative;
+    right: 240px;
+    top:40px;
+    border: 5px double #070979;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: justify;
+}
+.boton2{
+    border-radius: 20px;
+    position: relative;
+    bottom: 77px;
+    left: 250px;
+    border-radius: 20px;
+    border: 5px double #070979;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: justify;
+}
+.boton3{ 
+    position: relative;
+    right: 238px;
+    bottom: 73px;
+    border-radius: 20px;
+    border: 5px double #070979;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: justify;
+}
+.boton4{
+    position: relative;
+    bottom: 190px;
+    left: 250px;
+    border-radius: 20px;
+    border: 5px double #070979;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: justify;
+}
+.puntaje{
+    width: 700px;
+    height: 100px;
+    background: #fafade;
+    position: relative;
+    bottom: 170px;
+    left:280px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+    border: 8px double #155a04;
+    animation-name: puntos;
+    animation-duration: 1s;
+  animation-iteration-count: 999999;
+}
+@keyframes puntos {  
+    50%  {background-color:  #03fd18;}
+}
+.final1{
+    width: 700px;
+    height: 150px;
+    background: #fcfcde;
+    border-radius: 20px;
+    border: 6px solid #1e058f;
+    font-size: 30px;
+    margin: 40px 0px 0px 250px ;
+    text-align: center;
+}
+.cara1{
+ position: relative;
+ top: 100px;
+ animation-name: cara;
+    animation-duration: 1s;
+  animation-iteration-count: 999999;
+}
+.cara2{
+    position: relative;
+    left: 550px;
+    top: 100px;
+    animation-name: cara;
+       animation-duration: 1s;
+     animation-iteration-count: 999999;
+   }
+.botonreset{
+    width: 405px;
+    height: 100px;
+    position: relative;
+    right: 130px;
+    top:150px;
+    text-align: center;
+    color: #07791a;
+    font-weight: bold;
+    background-color: #46ee70cb;
+    border-radius: 20px;
+    border: 4px double #07791a;
+    font-size: 35px;
+    margin: 40px 0px 0px 250px ;
+
+}
+.botonreset:hover{
+    color: #46ee70cb;
+    background: #07791a;
+    border: 4px double #46ee70cb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.intro2{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 7px 6px 6px 6px #1e058f;
+    left: 350px;
+    top:100px;
+    background: #c3fd03;;
+    font-weight: bold;
+    font-size: 180px; 
+}
+.intro2:hover{
+    background: #d3fa54;
+    cursor: pointer;
+}
+.intro2:active{
+    color: #3123f3cb;
+    text-decoration:underline #3123f3cb;
+}
+.nivel2{
+    width: 150px;
+    height: 22px;
+    position: relative;
+    left:120px;
+    background: #c3fd03;
+    font-weight: bold;
+    font-size: 20px;
+}
+.puntaje2{
+    width: 700px;
+    height: 100px;
+    background: #fafade;
+    position: relative;
+    bottom: 180px;
+    left:280px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+    border: 8px double #070979;
+    animation-name: puntos2;
+    animation-duration: 1s;
+  animation-iteration-count: 999999;}
+  @keyframes puntos2 {  
+    50%  {background-color: #c3fd03;}
+}
+.intro3{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 7px 6px 6px 6px #1e058f;
+    position: relative;
+    left: 350px;
+    top:100px;
+    background:  #f9fd03;
+    font-weight: bold;
+    font-size: 180px; 
+}
+.intro3:hover{
+    background:  #f8fa7d;
+    cursor: pointer;
+}
+.intro3:active{
+    color: #3123f3cb;
+    text-decoration:underline #3123f3cb;
+}
+.nivel3{
+    width: 150px;
+    height: 22px;
+    position: relative;
+    left:120px;
+    background: #f9fd03;
+    font-weight: bold;
+    font-size: 20px;
+}
+.puntaje3{
+    width: 700px;
+    height: 100px;
+    background: #fafade;
+    position: relative;
+    bottom: 180px;
+    left:280px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+    border: 8px double #070979;
+    animation-name: puntos3;
+    animation-duration: 1s;
+  animation-iteration-count: 999999;}
+  @keyframes puntos3 {  
+    50%  {background-color:#f9fd03;}
+}
+.intro4{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 7px 6px 6px 6px #1e058f;
+    position: relative;
+    left: 350px;
+    top:100px;
+    background:  #fdba03;
+    font-weight: bold;
+    font-size: 180px; 
+}
+.intro4:hover{
+    background:  #fadd7d;
+    cursor: pointer;
+}
+.intro4:active{
+    color: #3123f3cb;
+    text-decoration:underline #3123f3cb;
+}
+.nivel4{
+    width: 150px;
+    height: 22px;
+    position: relative;
+    left:120px;
+    background: #fdba03;
+    font-weight: bold;
+    font-size: 20px;
+}
+.puntaje4{
+    width: 700px;
+    height: 100px;
+    background: #fafade;
+    position: relative;
+    bottom: 180px;
+    left:280px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+    border: 8px double #070979;
+    animation-name: puntos4;
+    animation-duration: 1s;
+  animation-iteration-count: 999999;}
+  @keyframes puntos4 {  
+    50%  {background-color:#fdba03;}
+}
+.intro5{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 7px 6px 6px 6px #1e058f;
+    position: relative;
+    left: 350px;
+    top:100px;
+    background:  #fd7403;
+    font-weight: bold;
+    font-size: 180px; 
+}
+.intro5:hover{
+    background:  #fa9a7d;
+    cursor: pointer;
+}
+.intro5:active{
+    color: #3123f3cb;
+    text-decoration:underline #3123f3cb;
+}
+.nivel5{
+    width: 150px;
+    height: 22px;
+    position: relative;
+    left:120px;
+    background: #fd7403;
+    font-weight: bold;
+    font-size: 20px;
+}
+.puntaje5{
+    width: 700px;
+    height: 100px;
+    background: #fafade;
+    position: relative;
+    bottom: 180px;
+    left:280px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+    border: 8px double #070979;
+    animation-name: puntos5;
+    animation-duration: 1s;
+  animation-iteration-count: 999999;}
+  @keyframes puntos5 {  
+    50%  {background-color:#fd7403;}
+}
+.name{
+    font-size: 1px; 
+}
+
